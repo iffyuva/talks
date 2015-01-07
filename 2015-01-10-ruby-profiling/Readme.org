@@ -1,10 +1,10 @@
 * Profiling Ruby applications Workshop
 
 * Setup requirements
-  - clang or gcc
-  - ruby 2.1.0
-  - google performance tools
+  - clang or gcc (latest)
+  - ruby 2.1.0 or 2.2.0
+  - valgrind
     + https://code.google.com/p/gperftools/
-    + mac: `brew install gperftools`
-    + ubuntu:
+    + mac: `brew install valgrind`
+    + ubuntu: sudo apt-get instal valgrind
   - rails 4, bundler, git
