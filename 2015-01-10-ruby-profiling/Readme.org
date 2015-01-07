@@ -1,0 +1,10 @@
+* Profiling Ruby applications Workshop
+
+* Setup requirements
+  - clang or gcc
+  - ruby 2.1.0
+  - google performance tools
+    + https://code.google.com/p/gperftools/
+    + mac: `brew install gperftools`
+    + ubuntu:
+  - rails 4, bundler, git
