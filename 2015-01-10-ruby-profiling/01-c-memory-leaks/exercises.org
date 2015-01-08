@@ -1,0 +1,2 @@
+- run the example once and see memory leak for yourself.
+- fix memory leak, and prove it using valgrind.
