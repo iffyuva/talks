@@ -1,12 +1,24 @@
 * Profiling Ruby applications Workshop
+  This workshop aims towards giving an insight into how to do profiling. We will
+  start with basic C programs, and will take those learnings into Ruby world.
 
-* Setup requirements
-  - clang or gcc (latest)
-  - ruby 2.1.5
-  - valgrind
-    + https://code.google.com/p/gperftools/
-    + mac: `brew install valgrind`
-    + ubuntu: sudo apt-get install valgrind
-  - stackprof gem
-    + gem install stackprof -v 0.2.7
-  - rails 4, bundler, git
+** Setup requirements
+   - clang or gcc (latest)
+   - ruby 2.1.5
+   - valgrind
+     + https://code.google.com/p/gperftools/
+     + mac: `brew install valgrind`
+     + ubuntu: sudo apt-get install valgrind
+   - stackprof gem
+     + gem install stackprof -v 0.2.7
+   - rbkit gem
+     + gem 'rbkit', github: 'code-mancers/rbkit'
+   - rbkit-client kit
+     + https://github.com/code-mancers/rbkit-client/releases/tag/untagged-90f956d2dd72958d0de8
+     + we will probably distribute this binary via pen drives
+   - rails 4, bundler, git
+
+
+** Pre-requisites
+   - basic understanding of rails.
+   - basic understanding of C
