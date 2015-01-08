@@ -1,0 +1,2 @@
+- run example once and see profiling logs once.
+- create an example ruby code, run valgrind callgrind on ruby sample code.
