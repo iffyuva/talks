@@ -2,9 +2,11 @@
 
 * Setup requirements
   - clang or gcc (latest)
-  - ruby 2.1.0 or 2.2.0
+  - ruby 2.1.5
   - valgrind
     + https://code.google.com/p/gperftools/
     + mac: `brew install valgrind`
     + ubuntu: sudo apt-get install valgrind
+  - stackprof gem
+    + gem install stackprof -v 0.2.7
   - rails 4, bundler, git
