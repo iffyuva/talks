@@ -8,10 +8,6 @@ Bundler.require(*Rails.groups)
 
 module SampleApp
   class Application < Rails::Application
-    config.middleware.use(StackProf::Middleware,
-                          enabled: true,
-                          mode: :cpu,
-                          interval: 1000,
-                          save_every: 1)
+    config.autoload_paths << Rails.root.join('lib')
   end
 end
