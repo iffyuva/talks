@@ -3,4 +3,5 @@
   creating object foo.
 
 - run tracepoint example and check output once.
-- explore Tracepoint api, and figure out time taken for hello program to run.
+- explore Tracepoint api, and modify the program to show method called, which line
+  and method returned.

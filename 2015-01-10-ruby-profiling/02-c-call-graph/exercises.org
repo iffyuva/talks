@@ -1,2 +1,3 @@
 - run example once and see profiling logs once.
+- write a fib function, and profile it
 - create an example ruby code, run valgrind callgrind on ruby sample code.

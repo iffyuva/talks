@@ -1,5 +1,8 @@
 #include <stdlib.h>
 
+
+// introduce malloc here
+
 int* alloc_space_for_10_integers() {
     return (int*) malloc( 10 * sizeof(int) );
 }
@@ -8,7 +11,6 @@ int* alloc_space_for_10_integers() {
 int main()
 {
     int* array = alloc_space_for_10_integers();
-    // free(array);
 
     return 0;
 }
