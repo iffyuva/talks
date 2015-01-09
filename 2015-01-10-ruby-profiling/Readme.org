@@ -6,15 +6,15 @@
    - clang or gcc (latest)
    - ruby 2.1.5
    - valgrind
-     + https://code.google.com/p/gperftools/
-     + mac: `brew install valgrind`
-     + ubuntu: sudo apt-get install valgrind
+     + https://github.com/iffyuva/talks/releases/tag/gcrc-2015
+     + mac: `brew install --HEAD valgrind-HEAD.yosemite.bottle.tar.gz`
+     + ubuntu: `sudo apt-get install valgrind`
    - stackprof gem
      + gem install stackprof -v 0.2.7
    - rbkit gem
-     + gem 'rbkit', github: 'code-mancers/rbkit'
+     + gem 'rbkit', '~> 0.1.6'
    - rbkit-client kit
-     + https://github.com/code-mancers/rbkit-client/releases/tag/untagged-90f956d2dd72958d0de8
+     + https://github.com/code-mancers/rbkit-client/releases/tag/v0.1.4
      + we will probably distribute this binary via pen drives
    - rails 4, bundler, git
 
