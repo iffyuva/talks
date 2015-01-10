@@ -1,1 +1,1 @@
-talks i have given so far
+talks and workshops i have given so far
